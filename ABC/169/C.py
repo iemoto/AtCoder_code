@@ -1,2 +1,4 @@
+import math
 X , Y = map(float, input().split())
-print(X, Y)
+X = int(X)
+print(math.floor(X * Y))
