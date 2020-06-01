@@ -1,5 +1,4 @@
-import math
 X , Y = input().split()
 X = int(X)
-Y = float(Y)
-print(math.floor(X * Y))
+Y = round(float(Y) * 100)
+print((X * Y) // 100)
